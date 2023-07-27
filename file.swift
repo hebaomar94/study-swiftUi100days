@@ -7,7 +7,7 @@ if age >= 18 {
   print("go on")
 }
 let userName ="hi"
-if username == " "{
+if userName == " "{
   print("hello \(userName))
        }
   
