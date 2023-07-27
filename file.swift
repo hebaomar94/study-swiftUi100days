@@ -1,3 +1,7 @@
+//THere are three checked way condition in swift 
+//if - switch - ternary Condation
+
+
 /*
 swift days 5 we will discuss the if condtion 
 1-declare the condation then we will put if condition */
