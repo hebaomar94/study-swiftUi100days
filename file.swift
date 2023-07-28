@@ -127,5 +127,19 @@ while true {
     }
 }
 
+//for range loop for i in 1 through 5 1...5 if 1..< 5 1.<= 5 
+
+var lyric = "Haters gonna"
+
+for _ in 1...5 {
+    lyric += " hate"
+}
+
+print(lyric)
+/*
+Haters gonna hate hate hate hate hate
+*/
+
+
 
 
