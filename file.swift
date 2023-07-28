@@ -52,3 +52,59 @@ case 2:
 default:
     print("A partridge in a pear tree")
 }
+
+//swift for loop
+//for name in nameVarable {}
+
+//A second way of writing loops is using while: give it a condition to check, and its loop code will go around and around until the condition fails.
+var number = 1
+while number <= 20 {
+  print("number")
+      number += 1
+
+}
+
+//The third way of writing loops is not commonly used
+
+Rpeat {
+    print("number")
+      number += 1
+} while number <= 20 
+  
+//we can make break in loop 
+var num = 10
+while num > 1 {
+  print (num)
+  if num == 4 {
+    print ("stop")
+    break 
+  }
+
+  num -= 1
+}
+
+// loop inside a loop it’s called a nested loop
+for i in ...10 {
+  for j in ...10 {
+    let product = i*j
+    print ("\(i) * \(j) = \(product)")
+  }
+}
+//we can add outerloop, If we wanted to exit part-way through we need to do two things. First, we give the outside loop a label, like this:
+outerLoop: for i in 1...10 {
+    for j in 1...10 {
+        let product = i * j
+        print ("\(i) * \(j) is \(product)")
+    }
+}
+//Second, add our condition inside the inner loop
+outerLoop: for i in 1...10 {
+    for j in 1...10 {
+        let product = i * j
+        print ("\(i) * \(j) is \(product)")
+      if product == 50 {
+        print("thats great")
+        break outerLoop
+    }
+}
+}
