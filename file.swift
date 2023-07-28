@@ -108,3 +108,24 @@ outerLoop: for i in 1...10 {
     }
 }
 }
+//As you’ve seen, the break keyword exits a loop. But if you just want to skip the current item and continue on to the next one, you should use continue instead
+for i in 1...10 {
+  if i % 2 == 1 {
+    continue 
+  }
+}
+//It’s common to use while loops to make infinite loops:
+//To make an infinite loop, just use true as your condition. true is always true, so the loop will repeat forever. 
+var counter = 0
+
+while true {
+    print(" ")
+    counter += 1
+
+    if counter == 273 {
+        break
+    }
+}
+
+
+
