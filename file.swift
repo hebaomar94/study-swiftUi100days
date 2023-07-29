@@ -169,5 +169,18 @@ func print(num: Int ) {
 let arg = print (num: 5)
 print (arg)
     
+func areArraysEqual(array1: [Int], array2: [Int]) -> Bool {
+    return Set(array1) == Set(array2)
+}
 
+let isEqual = areArraysEqual(array1: [1, 2, 3], array2: [3, 2, 1])
+print(isEqual)
 
+//
+func pythagoras(a: Double, b: Double) -> Double {
+ a * a + b * b
+
+}
+
+let c = pythagoras(a: 3, b: 4)
+print(c)
