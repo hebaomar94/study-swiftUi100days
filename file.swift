@@ -156,4 +156,18 @@ for i in 1...100_000 {
 
 print(multiples)
 
+//day6 in swiftui
+//function
+
+let roll = Int.random(in: 1...20)
+func print(num: Int ) {
+  for i in 1...12 {
+    print("\(i) x \(num) = \(i * num)")
+  }
+}
+//defination function
+let arg = print (num: 5)
+print (arg)
+    
+
 
