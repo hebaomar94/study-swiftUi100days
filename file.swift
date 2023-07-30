@@ -184,3 +184,27 @@ func pythagoras(a: Double, b: Double) -> Double {
 
 let c = pythagoras(a: 3, b: 4)
 print(c)
+
+
+//tuples to return multing value 
+func get -> (firstName:string, secondName:string) {
+  (firstName:"3dnan" , secondName:"lena")
+}
+let user = get()
+print(\("Name: \(user.firstName ) , second: \(user.secondName)" )
+
+//another solution 
+
+      func getUser() -> (firstName: String, lastName: String) {
+    (firstName: "Taylor", lastName: "Swift")
+}
+
+let (firstName, lastName) = getUser()
+
+
+print("Name: \(firstName) \(lastName)")
+//another 
+let (firstName, _) = getUser()
+print("Name: \(firstName)")
+
+      
