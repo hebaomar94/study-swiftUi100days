@@ -215,4 +215,11 @@ func printTimesTables(for number: Int) {
 }
 
 printTimesTables(for: 5)
-      
+
+      //trying
+      func hello (name: String , user:String) -> String{
+    return "hello \(name) in our \(user)"
+}
+var date = hello (name: "Heba" , user: "game")
+print(date)
+*/
