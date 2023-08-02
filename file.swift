@@ -223,3 +223,10 @@ printTimesTables(for: 5)
 var date = hello (name: "Heba" , user: "game")
 print(date)
 */
+
+//How to provide default values for parameters
+      var names = ["heba","soso","momo"]
+names.count
+// we want to keep the array’s existing capacity.
+names.removeAll(keepingCapacity: true)
+names.count
